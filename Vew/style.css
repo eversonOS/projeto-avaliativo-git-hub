@@ -23,19 +23,39 @@ body {
 
 h1 {
   margin-top: 0;
+  text-align: center;
   color: #007bff;
 }
 
-label,
+label {
+  font-size: 1.5rem;
+  display: block;
+  margin: 18px;
+  width: 300px;
+  color: #007bff;
+  padding: 5px;
+}
 input,
 button {
   display: block;
-  margin-bottom: 20px;
+  margin: 15px;
+  width: 300px;
+  border-radius: 7px;
   color: #007bff;
+  padding: 10px;
+}
+
+#weight {
+  font-size: 1.5rem;
+}
+
+#height {
+  font-size: 1.5rem;
 }
 
 button {
   background-color: #007bff;
+  width: 322px;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -45,4 +65,5 @@ button {
 
 #result {
   font-weight: bold;
+  font-size: 50px;
 }
