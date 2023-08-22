@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       resultElement.textContent = "Por favor, insira valores válidos.";
     } else {
       const bmi = calculateBMI(weight, height);
-      resultElement.textContent = `Seu IMC é ${bmi.toFixed(2)}.`;
+      resultElement.textContent = `Seu IMC é: ${bmi.toFixed(2)}`;
     }
   });
 
